@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1459051192239
+Build-Jdk: 1.8.0_45
+Built-By: matthewbush1
+Bundle-Activator: com.hirebotics.hbcloudconnector.impl.Activator
+Bundle-Category: URCap
+Bundle-ContactAddress: 1552 Westhaven Blvd, Franklin, TN 37064, USA
+Bundle-Copyright: Copyright notice (C)
+Bundle-Description: Provides access to the cloud connector API in progra
+ m nodes
+Bundle-LicenseType: License type
+Bundle-ManifestVersion: 2
+Bundle-Name: hbcloudconnector
+Bundle-SymbolicName: com.hirebotics.hbcloudconnector
+Bundle-Vendor: Hirebotics, LLC
+Bundle-Version: 1.0.27.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Import-Package: com.ur.urcap.api.contribution;version="[1.0,2.0)",com.ur
+ .urcap.api.domain;version="[1.0,2.0)",com.ur.urcap.api.domain.data;vers
+ ion="[1.0,2.0)",com.ur.urcap.api.domain.script;version="[1.0,2.0)",com.
+ ur.urcap.api.ui.annotation;version="[1.0,2.0)",com.ur.urcap.api.ui.comp
+ onent;version="[1.0,2.0)",org.osgi.framework;version="[1.6,2)"
+Tool: Bnd-2.1.0.20130426-122213

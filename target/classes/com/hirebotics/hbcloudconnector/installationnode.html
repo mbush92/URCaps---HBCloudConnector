@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hirebotics Cloud Connector Installation Variables</title>
+        <style>
+                label, input {
+                    display: inline-block;
+                    width: 200px;
+                    height: 28px;
+                }
+
+                div.spacer {
+                    padding-top: 10px;
+                }
+            </style>
+    </head>
+        <body>
+            <img src="Hirebotics.jpg" height="150" width="390"><h2>Hirebotics Cloud Connector Variables</h2>
+            <form>
+                <label>IP Address of Device: </label> <input type="text" value="192.168.1.150" id="ipaddr"/><br>
+                <label>Robot GUID: </label><input type="text" id="robotguid"/><br>
+                <label>Standard Message Level</label><input id="stdmessagelevel" type="number" min="4" max="5"/><br>
+                <label>Error Message Level</label><input id="errormessagelevel" type="number" min="1" max="3"/><br>
+            </form>
+        </body>
+</html>

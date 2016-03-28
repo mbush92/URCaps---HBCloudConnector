@@ -1,3 +1,5 @@
 com/hirebotics/hbcloudconnector/impl/HBCloudConnectorProgramNodeService.class
 com/hirebotics/hbcloudconnector/impl/HBCloudConnectorProgramNodeContribution.class
+com/hirebotics/hbcloudconnector/impl/HBCloudConnectorInstallationNodeService.class
 com/hirebotics/hbcloudconnector/impl/Activator.class
+com/hirebotics/hbcloudconnector/impl/HBCloudConnectorInstallationNodeContribution.class

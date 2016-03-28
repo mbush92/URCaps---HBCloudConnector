@@ -3,7 +3,7 @@
 <head>
     <title>Hirebotics Cloud Connector API</title>
     <style>
-            label, input {
+            label, input, div {
                 display: inline-block;
                 width: 200px;
                 height: 28px;
@@ -12,16 +12,45 @@
     </style>
 </head>
 <body>
-
+<img id="logo" src="Hirebotics.jpg" height="15" width="39">
 <form>
-    <input type="radio" name="api" id="startprogram" style="width: 20px"> Start Program <br>
-    <input type="radio" name="api" id="sendmessage" style="width: 20px"> Send Messsage           <input id="sendmessagestring" type="text"/> <br>
-    <input type="radio" name="api" id="senderrormessage" style="width: 20px"> Send Error Message <input id="senderrormessagestring" type="text"/>
-    <br>
-    <br>
-    <p><b>Log Message: </b><label id="logmessage" style="width: 800px;">This is where log message will go</label></p>
+    <h3> Choose the API you want to use</h3>
+        <input type="radio" name="api" id="startprogram" style="width: 20px"> Start Program<br>
+        <input type="radio" name="api" id="sendmessage" style="width: 20px"> Send a Messsage
+        <br>
 
+
+        Select Type of Message: <select id="selectmessagetype" style="width: 100px"></select><br>
+        <!--<input type="radio" name="api" id="senderrormessage" style="width: 20px"> Send Error Message<br><br>-->
+        <label id="messagestringlabel" style="width:150px">Message To Send:</label>
+        <input id="messagestring" type="text" style="width:300px"/><br>
+
+
+
+
+        <!--<div>-->
+        <!--<div>-->
+            <!--<label style="height:20px"><b> Send a Message</b></label>-->
+            <!--<input type="radio" name="api" id="sendmessage" style="width: 20px"> Send Standard Messsage-->
+            <!--<input type="radio" name="api" id="senderrormessage" style="width: 20px"> Send Error Message &lt;!&ndash;<input id="senderrormessagestring" type="text"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;<select id="selectmessagetype" style="width: 100px">&ndash;&gt;-->
+            <!--&lt;!&ndash;<option>Volvo</option>&ndash;&gt;-->
+            <!--&lt;!&ndash;<option>BMW</option>&ndash;&gt;-->
+        <!--&lt;!&ndash;</select><br>&ndash;&gt;-->
+        <!--</div>-->
+        <!--<br>-->
+        <!--<br>-->
+        <!--<div style="display: inline">-->
+            <!--<label style="width:150px">Message To Send:</label>-->
+            <!--<input id="messagestring" type="text" style="width:300px"/><br>-->
+        <!--</div>-->
+    <!--</div>-->
+    <p>-----------------------------------------------------------------------------------------</p>
+        <p><b>Debug Logs: </b><label id="logmessage" style="width: 800px;">This is where log message will go</label></p>
+    <br>
+    <br>
 </form>
+
 
 
 </body>

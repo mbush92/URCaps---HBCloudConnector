@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1459201857274
+Bnd-LastModified: 1459219787516
 Build-Jdk: 1.8.0_45
 Built-By: matthewbush1
 Bundle-Activator: com.hirebotics.hbcloudconnector.impl.Activator
@@ -13,7 +13,7 @@ Bundle-ManifestVersion: 2
 Bundle-Name: hbcloudconnector
 Bundle-SymbolicName: com.hirebotics.hbcloudconnector
 Bundle-Vendor: Hirebotics, LLC
-Bundle-Version: 1.1.16.1-SNAPSHOT
+Bundle-Version: 1.1.17.1-SNAPSHOT
 Created-By: Apache Maven Bundle Plugin
 Import-Package: com.ur.urcap.api.contribution;version="[1.0,2.0)",com.ur
  .urcap.api.domain;version="[1.0,2.0)",com.ur.urcap.api.domain.data;vers

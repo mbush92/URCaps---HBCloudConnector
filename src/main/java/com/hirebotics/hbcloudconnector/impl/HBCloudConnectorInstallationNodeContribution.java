@@ -8,6 +8,7 @@ import com.ur.urcap.api.ui.annotation.Input;
 import com.ur.urcap.api.ui.component.InputEvent;
 import com.ur.urcap.api.ui.component.InputTextField;
 
+import java.lang.ref.SoftReference;
 import java.util.Timer;
 
 /**
@@ -17,11 +18,28 @@ public class HBCloudConnectorInstallationNodeContribution implements Installatio
 
     private static final String IP_ADDR = "ipaddr";
     private static final String ROBOT_GUID = "robotguid";
+    private static final String STD_MSG_LEVEL = "stdmessagelevel";
+    private static final String ERR_MSG_LEVEL = "errmessagelevel";
 
     private DataModel model;
     private Timer uiTimer;
     private URCapAPI api;
 
+    public void setStdMessageLevel(String level){
+        model.set(STD_MSG_LEVEL, level);
+    }
+
+    public String getStdMessageLevel() {
+        return model.get(STD_MSG_LEVEL, "");
+    }
+
+    public void setErrMessageLevel(String level){
+        model.set(ERR_MSG_LEVEL, level);
+    }
+
+    public String getErrMessageLevel() {
+        return model.get(ERR_MSG_LEVEL, "");
+    }
 
     private void setIpAddr(String ipAdrr) {
         model.set(IP_ADDR, ipAdrr);
@@ -53,6 +71,9 @@ public class HBCloudConnectorInstallationNodeContribution implements Installatio
     @Input(id = "stdmessagelevel")
     public InputTextField stdMessageLevel;
 
+    @Input(id = "errmessagelevel")
+    public InputTextField errMessageLevel;
+
     @Input(id = "ipaddr")
     public void onIpAddrChange(InputEvent event){
         if (event.getEventType() == InputEvent.EventType.ON_CHANGE){
@@ -67,10 +88,26 @@ public class HBCloudConnectorInstallationNodeContribution implements Installatio
         }
     }
 
+    @Input(id = "stdmessagelevel")
+    public void onMessageLevelChange(InputEvent event){
+        if (event.getEventType() == InputEvent.EventType.ON_CHANGE){
+            setStdMessageLevel(stdMessageLevel.getText());
+        }
+    }
+
+    @Input(id = "errmessagelevel")
+    public void onErrorMessageLevelChange(InputEvent event){
+        if (event.getEventType() == InputEvent.EventType.ON_CHANGE){
+            setErrMessageLevel(errMessageLevel.getText());
+        }
+    }
+
     @Override
     public void openView(){
         ipAddrField.setText(getIpAddr());
         robotGuidField.setText(getRobotGuid());
+        stdMessageLevel.setText(getStdMessageLevel());
+        errMessageLevel.setText(getErrMessageLevel());
     }
 
     @Override

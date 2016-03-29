@@ -9,7 +9,6 @@ import com.ur.urcap.api.ui.component.*;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
-import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -55,11 +54,13 @@ public class HBCloudConnectorProgramNodeContribution implements ProgramNodeContr
         model.set(SELECT_LIST_INDEX, msgTypeIndex);
     }
 
-    private int getMessageSelected {
-
+    private int getMessageSelected() {
+        return model.get(SELECT_LIST_INDEX, 0);
     }
 
-        private int getMessageType()
+    private int getMessageType(){
+        return selectMessageType.getSelectedIndex();
+    }
 
     private void setMessage(String msg) {
         if ("".equals(msg)) {
@@ -96,14 +97,16 @@ public class HBCloudConnectorProgramNodeContribution implements ProgramNodeContr
     private List selectMessageTypeList = new ArrayList();
 
     public List getSelectMessageTypeList() {
-        selectMessageTypeList.add("Select Message Type");
-        selectMessageTypeList.add("Regular");
-        selectMessageTypeList.add("Error");
+        if (selectMessageTypeList.size() == 0) {
+            selectMessageTypeList.add("Select Message Type");
+            selectMessageTypeList.add("Regular");
+            selectMessageTypeList.add("Error");
+        }
         return selectMessageTypeList;
     }
 
     public void setSelectMessageTypeList(){
-        selectMessageType.setItems(getSelectMessageTypeList());
+        selectMessageType.setItems(selectMessageTypeList);
     }
 
     public HBCloudConnectorProgramNodeContribution(URCapAPI api, DataModel model, ProgramTreeNode programTreeNode) {
@@ -151,8 +154,10 @@ public class HBCloudConnectorProgramNodeContribution implements ProgramNodeContr
         if(event.getEventType() == InputEvent.EventType.ON_CHANGE) {
             setTitle("Send Message");
             setProgramTreeNodeTitle();
-
             selectMessageType.setEnabled(true);
+            if(selectMessageType.getSelectedIndex()>0) {
+                sendMessageString.setEnabled(true);
+            }
 
         }
     }
@@ -160,18 +165,21 @@ public class HBCloudConnectorProgramNodeContribution implements ProgramNodeContr
     @Input(id = "messagestring")
     public void onSendMessageTextInput(InputEvent event){
         setProgramNodeComplete(false);
+        HBCloudConnectorInstallationNodeContribution c = api.getInstallationNode(HBCloudConnectorInstallationNodeContribution.class);
+        String stdMessageLevel = c.getStdMessageLevel();
+        String errMessageLevel = c.getErrMessageLevel();
         if(event.getEventType() == InputEvent.EventType.ON_CHANGE) {
             String msg = sendMessageString.getText();
             if ("".equals(msg)) {
                 return ;
             }
             String msgHeader;
-            switch (getmessageType()) {
+            switch (getMessageType()) {
                 case 1:
-                    msgHeader = "sendMessage(" + "\"" + "[4]";
+                    msgHeader = "sendMessage(" + "\"" + "[" + stdMessageLevel + "] ";
                     break;
                 case 2:
-                    msgHeader = "sendErrorMessage(" + "\"" + "[1]";
+                    msgHeader = "sendErrorMessage(" + "\"" + "[" +  errMessageLevel +"] ";
                     break;
                 default:
                     return;
@@ -212,13 +220,19 @@ public class HBCloudConnectorProgramNodeContribution implements ProgramNodeContr
 
     @Override
     public void openView(){
-        setSelectMessageTypeList();
+        getSelectMessageTypeList();
+        setLogMessage("select list length " + selectMessageType.getItemCount() + ", list length " + selectMessageTypeList.size());
+        if (selectMessageType.getItemCount() < selectMessageTypeList.size()) {
+            setSelectMessageTypeList(); //populate the list if it is not populated
+        }
         logoImage.setImage(img);
         if (!apiSendMessage.isSelected()) {
             selectMessageType.setEnabled(false);
             sendMessageString.setEnabled(false);
             messageStringLabel.setEnabled(false);
         }
+        selectMessageType.selectItemAtIndex(getMessageSelected());
+        setLogMessage("select list length " + selectMessageType.getItemCount() + ", list length " + selectMessageTypeList.size());
 
     }
 

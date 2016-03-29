@@ -2,72 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eba67799-a7a3-4c16-810c-c9b2de48bd85" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/com/hirebotics/hbcloudconnector/Hirebotics - Rob.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/com/hirebotics/hbcloudconnector/Hirebotics.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/hirebotics/hbcloudconnector/impl/HBCloudConnectorInstallationNodeContribution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/hirebotics/hbcloudconnector/impl/HBCloudConnectorInstallationNodeService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/com/hirebotics/hbcloudconnector/installationnode.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0-SNAPSHOT.urcap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.1-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.1-SNAPSHOT.urcap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.10-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.10-SNAPSHOT.urcap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.11-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.11-SNAPSHOT.urcap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.12-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.12-SNAPSHOT.urcap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.13-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.13-SNAPSHOT.urcap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.14-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.14-SNAPSHOT.urcap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.2-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.2-SNAPSHOT.urcap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.20-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.20-SNAPSHOT.urcap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.21-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.21-SNAPSHOT.urcap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.22-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.22-SNAPSHOT.urcap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.23-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.23-SNAPSHOT.urcap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.24-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.24-SNAPSHOT.urcap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.25-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.25-SNAPSHOT.urcap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.26-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.26-SNAPSHOT.urcap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.27-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.27-SNAPSHOT.urcap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.3-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.3-SNAPSHOT.urcap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.4-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.5-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.5-SNAPSHOT.urcap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.6-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.6-SNAPSHOT.urcap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.7-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.7-SNAPSHOT.urcap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.8-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.8-SNAPSHOT.urcap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.9-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/hbcloudconnector-1.0.9-SNAPSHOT.urcap" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/hirebotics/hbcloudconnector/impl/Activator.class" afterPath="$PROJECT_DIR$/target/classes/com/hirebotics/hbcloudconnector/impl/Activator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/hirebotics/hbcloudconnector/impl/HBCloudConnectorInstallationNodeContribution.class" afterPath="$PROJECT_DIR$/target/classes/com/hirebotics/hbcloudconnector/impl/HBCloudConnectorInstallationNodeContribution.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/hirebotics/hbcloudconnector/impl/HBCloudConnectorProgramNodeContribution.class" afterPath="$PROJECT_DIR$/target/classes/com/hirebotics/hbcloudconnector/impl/HBCloudConnectorProgramNodeContribution.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/hirebotics/hbcloudconnector/impl/AppTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/hirebotics/hbcloudconnector/impl/AppTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hirebotics/hbcloudconnector/impl/Activator.java" afterPath="$PROJECT_DIR$/src/main/java/com/hirebotics/hbcloudconnector/impl/Activator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hirebotics/hbcloudconnector/impl/HBCloudConnectorInstallationNodeContribution.java" afterPath="$PROJECT_DIR$/src/main/java/com/hirebotics/hbcloudconnector/impl/HBCloudConnectorInstallationNodeContribution.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hirebotics/hbcloudconnector/impl/HBCloudConnectorProgramNodeContribution.java" afterPath="$PROJECT_DIR$/src/main/java/com/hirebotics/hbcloudconnector/impl/HBCloudConnectorProgramNodeContribution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/hirebotics/hbcloudconnector/programnode.html" afterPath="$PROJECT_DIR$/src/main/resources/com/hirebotics/hbcloudconnector/programnode.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/LICENSE" afterPath="$PROJECT_DIR$/target/classes/META-INF/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/hirebotics/hbcloudconnector/installationnode.html" afterPath="$PROJECT_DIR$/src/main/resources/com/hirebotics/hbcloudconnector/installationnode.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/hirebotics/hbcloudconnector/programnode.html" afterPath="$PROJECT_DIR$/target/classes/com/hirebotics/hbcloudconnector/programnode.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/hirebotics/hbcloudconnector/installationnode.html" afterPath="$PROJECT_DIR$/target/classes/com/hirebotics/hbcloudconnector/installationnode.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.hirebotics.hbcloudconnector.impl.AppTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.hirebotics.hbcloudconnector.impl.AppTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.hirebotics.hbcloudconnector.impl.AppTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.hirebotics.hbcloudconnector.impl.AppTest.txt" />
     </list>
@@ -90,28 +33,32 @@
     <favorites_list name="hbcloudconnector" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="202">
-      <file leaf-file-name="HBCloudConnectorProgramNodeContribution.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="151">
+      <file leaf-file-name="HBCloudConnectorProgramNodeContribution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hirebotics/hbcloudconnector/impl/HBCloudConnectorProgramNodeContribution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="222" column="5" selection-start-line="222" selection-start-column="5" selection-end-line="222" selection-end-column="5" />
+            <state relative-caret-position="637">
+              <caret line="192" column="0" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2216#2217#0" expanded="true" />
-                <element signature="e#2259#2260#0" expanded="true" />
-                <element signature="e#2317#2318#0" expanded="true" />
-                <element signature="e#2354#2355#0" expanded="true" />
+                <element signature="e#1764#1765#0" expanded="true" />
+                <element signature="e#1818#1819#0" expanded="true" />
+                <element signature="e#1853#1854#0" expanded="true" />
+                <element signature="e#1912#1913#0" expanded="true" />
+                <element signature="e#2300#2301#0" expanded="true" />
+                <element signature="e#2343#2344#0" expanded="true" />
                 <element signature="e#2401#2402#0" expanded="true" />
-                <element signature="e#2436#2437#0" expanded="true" />
-                <element signature="e#2481#2482#0" expanded="true" />
+                <element signature="e#2438#2439#0" expanded="true" />
+                <element signature="e#2485#2486#0" expanded="true" />
                 <element signature="e#2520#2521#0" expanded="true" />
-                <element signature="e#2862#2863#0" expanded="true" />
-                <element signature="e#2932#2933#0" expanded="true" />
-                <element signature="e#6220#6221#0" expanded="true" />
-                <element signature="e#6308#6309#0" expanded="true" />
-                <element signature="e#6356#6357#0" expanded="true" />
-                <element signature="e#6403#6404#0" expanded="true" />
+                <element signature="e#2565#2566#0" expanded="true" />
+                <element signature="e#2604#2605#0" expanded="true" />
+                <element signature="e#3017#3018#0" expanded="true" />
+                <element signature="e#3082#3083#0" expanded="true" />
+                <element signature="e#6786#6787#0" expanded="true" />
+                <element signature="e#6874#6875#0" expanded="true" />
+                <element signature="e#6922#6923#0" expanded="true" />
+                <element signature="e#6969#6970#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -183,21 +130,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HBCloudConnectorInstallationNodeContribution.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HBCloudConnectorInstallationNodeContribution.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hirebotics/hbcloudconnector/impl/HBCloudConnectorInstallationNodeContribution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="53" column="41" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="41" />
+            <state relative-caret-position="320">
+              <caret line="107" column="47" selection-start-line="107" selection-start-column="47" selection-end-line="107" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#812#813#0" expanded="true" />
-                <element signature="e#854#855#0" expanded="true" />
-                <element signature="e#888#889#0" expanded="true" />
-                <element signature="e#933#934#0" expanded="true" />
-                <element signature="e#978#979#0" expanded="true" />
-                <element signature="e#1021#1022#0" expanded="true" />
-                <element signature="e#1057#1058#0" expanded="true" />
-                <element signature="e#1105#1106#0" expanded="true" />
+                <element signature="e#987#988#0" expanded="true" />
+                <element signature="e#1034#1035#0" expanded="true" />
+                <element signature="e#1076#1077#0" expanded="true" />
+                <element signature="e#1127#1128#0" expanded="true" />
+                <element signature="e#1178#1179#0" expanded="true" />
+                <element signature="e#1225#1226#0" expanded="true" />
+                <element signature="e#1267#1268#0" expanded="true" />
+                <element signature="e#1318#1319#0" expanded="true" />
+                <element signature="e#1363#1364#0" expanded="true" />
+                <element signature="e#1405#1406#0" expanded="true" />
+                <element signature="e#1439#1440#0" expanded="true" />
+                <element signature="e#1484#1485#0" expanded="true" />
+                <element signature="e#1529#1530#0" expanded="true" />
+                <element signature="e#1572#1573#0" expanded="true" />
+                <element signature="e#1608#1609#0" expanded="true" />
+                <element signature="e#1656#1657#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -249,11 +204,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hirebotics/hbcloudconnector/impl/HBCloudConnectorInstallationNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hirebotics/hbcloudconnector/impl/HBCloudConnectorInstallationNodeService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hirebotics/hbcloudconnector/impl/Activator.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/hirebotics/hbcloudconnector/installationnode.html" />
         <option value="$PROJECT_DIR$/src/main/resources/com/hirebotics/hbcloudconnector/programnode.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hirebotics/hbcloudconnector/impl/HBCloudConnectorInstallationNodeContribution.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/hirebotics/hbcloudconnector/installationnode.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/hirebotics/hbcloudconnector/impl/HBCloudConnectorProgramNodeContribution.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hirebotics/hbcloudconnector/impl/HBCloudConnectorInstallationNodeContribution.java" />
       </list>
     </option>
   </component>
@@ -280,9 +235,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="904" />
-    <option name="width" value="1016" />
-    <option name="height" value="1080" />
+    <option name="x" value="407" />
+    <option name="width" value="1033" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -664,7 +619,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="904" y="0" width="1016" height="1080" extended-state="0" />
+    <frame x="407" y="0" width="1033" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -674,9 +629,9 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963988" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.103960395" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3313253" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16529775" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14631686" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -906,14 +861,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/hirebotics/hbcloudconnector/installationnode.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/hirebotics/hbcloudconnector/programnode.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -935,24 +882,6 @@
           <caret line="32" column="95" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="95" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hirebotics/hbcloudconnector/impl/HBCloudConnectorInstallationNodeContribution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="53" column="41" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-            <element signature="e#854#855#0" expanded="true" />
-            <element signature="e#888#889#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
-            <element signature="e#1021#1022#0" expanded="true" />
-            <element signature="e#1057#1058#0" expanded="true" />
-            <element signature="e#1105#1106#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -985,6 +914,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/hirebotics/hbcloudconnector/installationnode.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hirebotics/hbcloudconnector/impl/HBCloudConnectorProgramNodeContribution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="192" column="0" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1764#1765#0" expanded="true" />
+            <element signature="e#1818#1819#0" expanded="true" />
+            <element signature="e#1853#1854#0" expanded="true" />
+            <element signature="e#1912#1913#0" expanded="true" />
+            <element signature="e#2300#2301#0" expanded="true" />
+            <element signature="e#2343#2344#0" expanded="true" />
+            <element signature="e#2401#2402#0" expanded="true" />
+            <element signature="e#2438#2439#0" expanded="true" />
+            <element signature="e#2485#2486#0" expanded="true" />
+            <element signature="e#2520#2521#0" expanded="true" />
+            <element signature="e#2565#2566#0" expanded="true" />
+            <element signature="e#2604#2605#0" expanded="true" />
+            <element signature="e#3017#3018#0" expanded="true" />
+            <element signature="e#3082#3083#0" expanded="true" />
+            <element signature="e#6786#6787#0" expanded="true" />
+            <element signature="e#6874#6875#0" expanded="true" />
+            <element signature="e#6922#6923#0" expanded="true" />
+            <element signature="e#6969#6970#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -993,26 +958,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hirebotics/hbcloudconnector/impl/HBCloudConnectorProgramNodeContribution.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hirebotics/hbcloudconnector/impl/HBCloudConnectorInstallationNodeContribution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="222" column="5" selection-start-line="222" selection-start-column="5" selection-end-line="222" selection-end-column="5" />
+        <state relative-caret-position="320">
+          <caret line="107" column="47" selection-start-line="107" selection-start-column="47" selection-end-line="107" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2216#2217#0" expanded="true" />
-            <element signature="e#2259#2260#0" expanded="true" />
-            <element signature="e#2317#2318#0" expanded="true" />
-            <element signature="e#2354#2355#0" expanded="true" />
-            <element signature="e#2401#2402#0" expanded="true" />
-            <element signature="e#2436#2437#0" expanded="true" />
-            <element signature="e#2481#2482#0" expanded="true" />
-            <element signature="e#2520#2521#0" expanded="true" />
-            <element signature="e#2862#2863#0" expanded="true" />
-            <element signature="e#2932#2933#0" expanded="true" />
-            <element signature="e#6220#6221#0" expanded="true" />
-            <element signature="e#6308#6309#0" expanded="true" />
-            <element signature="e#6356#6357#0" expanded="true" />
-            <element signature="e#6403#6404#0" expanded="true" />
+            <element signature="e#987#988#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#1127#1128#0" expanded="true" />
+            <element signature="e#1178#1179#0" expanded="true" />
+            <element signature="e#1225#1226#0" expanded="true" />
+            <element signature="e#1267#1268#0" expanded="true" />
+            <element signature="e#1318#1319#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1405#1406#0" expanded="true" />
+            <element signature="e#1439#1440#0" expanded="true" />
+            <element signature="e#1484#1485#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+            <element signature="e#1572#1573#0" expanded="true" />
+            <element signature="e#1608#1609#0" expanded="true" />
+            <element signature="e#1656#1657#0" expanded="true" />
           </folding>
         </state>
       </provider>

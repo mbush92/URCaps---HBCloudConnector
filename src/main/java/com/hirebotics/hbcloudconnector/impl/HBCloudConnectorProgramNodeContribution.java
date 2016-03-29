@@ -28,8 +28,12 @@ public class HBCloudConnectorProgramNodeContribution implements ProgramNodeContr
     private BufferedImage img;
     private int messageType;
 
+
     @Input(id = "startprogram")
     private InputRadioButton apiStartProgram;
+
+    @Input(id = "madepart")
+    private InputRadioButton apiMadePart;
 
     @Input(id = "sendmessage")
     private InputRadioButton apiSendMessage;
@@ -191,6 +195,16 @@ public class HBCloudConnectorProgramNodeContribution implements ProgramNodeContr
 
         }
 
+    }
+
+    @Input(id = "madepart")
+    public void onMadePartChange(InputEvent event){
+        setProgramNodeComplete(false);
+        if (event.getEventType() == InputEvent.EventType.ON_CHANGE){
+           setTitle("Send Made Part");
+           setProgramTreeNodeTitle();
+
+        }
     }
 
 

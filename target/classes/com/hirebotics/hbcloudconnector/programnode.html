@@ -3,11 +3,25 @@
 <head>
     <title>Hirebotics Cloud Connector API</title>
     <style>
-            label, input, div {
+            label {
                 display: inline-block;
                 width: 200px;
                 height: 28px;
+                vertical-align: middle;
+                margin: 0px;
             }
+
+            div.spacer {
+				padding-left: 10px;
+	 		}
+
+	 		input {
+	 		    display: inline-block;
+	 		    width: 20px;
+	 		    height: 28px;
+	 		    vertical-align: middle;
+	 		    margin: 0px;
+	 		}
 
     </style>
 </head>
@@ -15,15 +29,16 @@
 <img id="logo" src="Hirebotics.jpg" height="15" width="39">
 <form>
     <h3> Choose the API you want to use</h3>
-        <input type="radio" name="api" id="startprogram" style="width: 20px"> Start Program<br>
-        <input type="radio" name="api" id="sendmessage" style="width: 20px"> Send a Messsage
-        <br>
-
-
-        Select Type of Message: <select id="selectmessagetype" style="width: 100px"></select><br>
-        <!--<input type="radio" name="api" id="senderrormessage" style="width: 20px"> Send Error Message<br><br>-->
-        <label id="messagestringlabel" style="width:150px">Message To Send:</label>
-        <input id="messagestring" type="text" style="width:300px"/><br>
+    <input class="radio" type="radio" name="api" id="startprogram" style="width: 20px"/> Start Program<br>
+    <input type="radio" name="api" id="madepart" style="width:20px"/><label style="width: 120px">Made a Part &nbsp;</label><input type="number" id="numpartsmade" style="width:40px"/><br>
+    <p>-----------------------------------------------------------------------------------------</p>
+    <div class="spacer"></div>
+    <input type="radio" name="api" id="sendmessage" style="width: 20px"/> Send a Messsage
+    <div class="spacer"></div>
+    Select Type of Message: <select id="selectmessagetype" style="width: 100px"></select><br>
+    <!--<input type="radio" name="api" id="senderrormessage" style="width: 20px"> Send Error Message<br><br>-->
+    <label id="messagestringlabel" style="width:150px">Message To Send:</label>
+    <input id="messagestring" type="text" style="width:300px"/><br>
 
 
 
@@ -46,7 +61,7 @@
         <!--</div>-->
     <!--</div>-->
     <p>-----------------------------------------------------------------------------------------</p>
-        <p><b>Debug Logs: </b><label id="logmessage" style="width: 800px;">This is where log message will go</label></p>
+    <p><label style="width:100px"><b>Debug Logs: </b></label><label id="logmessage" style="width: 800px;">This is where log message will go</label></p>
     <br>
     <br>
 </form>

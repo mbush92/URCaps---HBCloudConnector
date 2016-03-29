@@ -102,7 +102,7 @@ public class HBCloudConnectorProgramNodeContribution implements ProgramNodeContr
 
     public List getSelectMessageTypeList() {
         if (selectMessageTypeList.size() == 0) {
-            selectMessageTypeList.add("Select Message Type");
+            selectMessageTypeList.add("");
             selectMessageTypeList.add("Regular");
             selectMessageTypeList.add("Error");
         }
